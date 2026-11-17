@@ -24,9 +24,10 @@ lib/
 └── screens/
     ├── posts_screen.dart          # posts list + star button + Favorites button
     └── favorites_screen.dart      # saved favorites
-````
+```
+
 ## How It Works
-````
+
 - **PostService.getPosts()** tries the API first. On success it clears `postsBox`, saves the new posts and returns them. On failure it returns the cached posts from Hive, or throws "No Internet and No Cached Data" if the box is empty.
 - **FavoritesService** stores a copy of each favorite post in `favoritesBox` using the post `id` as the key. A copy is saved because a `HiveObject` can only live in one box at a time.
 - Favorites use a separate box because `getPosts()` clears `postsBox` on every refresh, which would otherwise wipe the favorites.
@@ -65,6 +66,5 @@ lib/
 
 ```
 flutter pub get
-dart run build_runner build --delete-conflicting-outputs
 flutter run -d chrome
 ```
