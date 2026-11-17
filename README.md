@@ -37,25 +37,25 @@ lib/
 ## Screenshots
 
 ### 1. Posts loaded online
-![Posts online](screenshots/01_online.png)
+![Posts online](Screenshots/01_online.png)
 
 ### 2. Favorite toggle (filled / outlined star)
-![Toggle](screenshots/02_toggle.png)
+![Toggle](Screenshots/02_toggle.png)
 
 ### 3. Favorites screen
-![Favorites](screenshots/03_favorites.png)
+![Favorites](Screenshots/03_favorites.png)
 
 ### 4. Empty favorites message
-![Empty favorites](screenshots/04_empty.png)
+![Empty favorites](Screenshots/04_empty.png)
 
 ### 5. Posts loaded offline (network disconnected)
-![Offline posts](screenshots/05_offline.png)
+![Offline posts](Screenshots/05_offline.png)
 
 ### 6. Favorites still available offline
-![Offline favorites](screenshots/06_favorites_offline.png)
+![Offline favorites](Screenshots/06_favorites_offline.png)
 
 ### 7. Console output when loading from Hive
-![Terminal](screenshots/07_terminal.png)
+![Terminal](Screenshots/07_terminal.png)
 
 ## Offline Test
 
