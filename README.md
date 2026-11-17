@@ -17,15 +17,13 @@ A Flutter app that fetches posts from [JSONPlaceholder](https://jsonplaceholder.
 lib/
 ├── main.dart                      # initialises Hive, registers adapter, opens boxes
 ├── models/
-│   ├── post_model.dart            # Post class + Hive annotations
-│   └── post_model.g.dart          # generated adapter
+│   └── post_model.dart            # Post class + Hive adapter
 ├── services/
 │   ├── post_service.dart          # API first, Hive as a fallback
 │   └── favorites_service.dart     # toggleFavorite, isFavorite, getFavorites
 └── screens/
     ├── posts_screen.dart          # posts list + star button + Favorites button
     └── favorites_screen.dart      # saved favorites
-```
 
 ## How It Works
 
